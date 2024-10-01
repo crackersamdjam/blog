@@ -8,7 +8,6 @@ toc: true
 comments: false
 math: true
 mermaid: true
-pin: true
 #image:
 #  path: /assets/img/content/what-is-this/jekyll.png
 #  width: 30%
