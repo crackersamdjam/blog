@@ -3,7 +3,7 @@ layout: post
 title: "Comparing 2N and 4N-sized recursive segment trees"
 date: 2021-07-08 10:32:48 -0400
 categories: [Competitive Programming]
-tags: [Algorithm, Investigation]
+tags: [Algorithm]
 toc: true
 comments: false
 math: true

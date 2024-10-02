@@ -2,8 +2,8 @@
 layout: post
 title: "My Contest History"
 date: 2021-07-01 9:25:00 -0400
-categories: [Contests]
-tags: []
+categories: [Competitive Programming]
+tags: [Contests]
 toc: true
 comments: false
 math: true
