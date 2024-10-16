@@ -167,10 +167,9 @@ We already knew that we save up to half our memory by switching to the 2N implem
 
 ## Conclusions
 
-The 2N implementation uses less memory and the 4N implementation is a little faster. These small differences will not matter if the problems you are solving have reasonable time and memory limits.
+The 2N implementation uses less memory and the 4N implementation is a little faster. These small differences will not matter if the problems you are solving have reasonable time and memory limits. If you happen to face a problem where you need to save memory or reduce the number of node merges, there is a "fat nodes" technique that I had to use exactly once.
 
-Now of course, we could just use iterative segment trees. ~~I guess this blog post was useless (perhaps I should have discussed “walking” on an iterative segment tree instead).~~ ☹️
+Now of course, we could just use iterative segment trees. ~~I guess this blog post was useless~~ ☹️.
+The reason I investigated 2N vs 4N top-down segment trees was because I thought a friend's [2N implementation](https://github.com/wesley-a-leung/Resources/tree/dfb32ddc81f08a7ab4053b5daba9ec1b11c84307/Content/C%2B%2B/datastructures/trees/segmenttrees) was too slow.
 
-I will soon be investigating the feasibility of using “fat nodes” in segment trees. Stay tuned! 📻
-
-
+I'd love to cover fat nodes, "walking" down iternative segment trees, and other techniques in the future. Stay tuned! 📻
